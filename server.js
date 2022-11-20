@@ -14,7 +14,6 @@ const image = require('./controllers/image');
 
 //DATABSE CONNECTION
 const knex = require('knex');
-const { handleImage } = require('./controllers/image');
 
 const db = knex({
     client:'pg',
