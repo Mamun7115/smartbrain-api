@@ -33,7 +33,9 @@ app.use(bodyParser.json());
 app.use(cors());
 
 
-
+app.get('/', (req,res){
+    res.send('Servers working = GOOD')
+})
 
 // SIGNIN API
 app.post('/signin', (req,res) => {
