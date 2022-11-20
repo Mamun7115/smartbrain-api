@@ -64,7 +64,7 @@ app.put('/image', (req,res) => {
 
 // SERVER RUNNING ON PORT /-/-/-/-
 app.listen(process.env.PORT, ()=>{
-    console.log(`App is running on port ${PORT} `);
+    console.log(`App is running on port ${process.env.PORT} `);
 });
 
 
